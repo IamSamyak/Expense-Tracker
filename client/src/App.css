@@ -10,6 +10,7 @@
 .App {
   text-align: center;
   padding: 4em 0;
+  padding: 0;
 }
 
 .bg-yellow{
@@ -31,4 +32,9 @@
 
 .form-input{
   @apply mt-1 block w-full py-2 px-3 border border-gray-200 bg-white rounded-md focus:outline-none focus:ring-indigo-500 sm:text-sm
+}
+
+body{
+  margin: 0;
+  padding: 0;
 }
